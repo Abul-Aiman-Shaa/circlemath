@@ -22,17 +22,19 @@ def odcir(diameter:int):    # odcir == circle diameter circumfrence
     cir = (math.pi * diameter)            # c = pi x d
     return cir
 
-# Check for area of circle with radius
-print(orarea(5))
-print()
 
-# Check for area of circle with diameter
-print(odarea(10))
-print()
+if __name__ == "__main__":
+    # Check for area of circle with radius
+    print(orarea(5))
+    print()
 
-# Check for circumfrence of circle with radius
-print(orcir(32))
-print()
+    # Check for area of circle with diameter
+    print(odarea(10))
+    print()
+
+    # Check for circumfrence of circle with radius
+    print(orcir(32))
+    print()
 
 # Check for circumfrence of circle with diameter
 print(odcir(24))
